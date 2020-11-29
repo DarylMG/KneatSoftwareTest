@@ -1,0 +1,9 @@
+Feature: Scenario 5
+
+  Scenario: Search for Limerick, One night stay, 2 adults, 1 Room, With Spa
+    Given User has accessed Booking.com website
+    And I have entered a location of "Limerick"
+    And I have entered a month of "February" and a date of "16" and a duration of "17" nights stay
+    And I click on the Show More Option on the Facilities Filter Section
+    And I click on the Spa checkbox
+    Then The search page will be returned displaying "Absolute Hotel Limerick"

@@ -1,0 +1,8 @@
+Feature: Scenario 4
+
+  Scenario: Search for Limerick, Three night stay, 2 adults, 1 Room, unrated
+    Given User has accessed Booking.com website
+    And I have entered a location of "Limerick"
+    And I have entered a month of "February" and a date of "16" and a duration of "19" nights stay
+    And I click on the Unrated checkbox
+    Then The search page will be returned displaying "Adare Villas"

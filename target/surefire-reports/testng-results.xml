@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Thirteen Project Suite" duration-ms="3" started-at="2020-11-29T20:44:45Z" finished-at="2020-11-29T20:44:45Z">
+    <groups>
+    </groups>
+    <test name="Kneat test" duration-ms="3" started-at="2020-11-29T20:44:45Z" finished-at="2020-11-29T20:44:45Z">
+    </test> <!-- Kneat test -->
+  </suite> <!-- Thirteen Project Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+Feature: Scenario 2
+
+  Scenario: Search for Limerick, One night stay, 2 adults, 1 Room, 4 stars
+    Given User has accessed Booking.com website
+    And I have entered a location of "Limerick"
+    And I have entered a month of "February" and a date of "16" and a duration of "17" nights stay
+    And I click on the 3 stars checkbox
+    Then The search page will be returned displaying "George Limerick Hotel"
